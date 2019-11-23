@@ -1,8 +1,8 @@
 package personagem;
 
-public class Espadachim extends Heroi {
+public class Guerreiro extends Heroi {
     
-    public Espadachim(String name) {
+    public Guerreiro(String name) {
         super(name);
         this.calculatePower();
         this.calculateAtack();
@@ -12,7 +12,7 @@ public class Espadachim extends Heroi {
     // methods from Job
     
     @Override
-    public String getJOB() { return "Espadachim"; }
+    public String getJOB() { return "Guerreiro"; }
     
     @Override
     public void calculatePower() {

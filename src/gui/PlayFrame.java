@@ -64,7 +64,7 @@ public class PlayFrame extends JFrame {
 	public PlayFrame() {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(250, 100, 920, 640);
-		setTitle("World of Idle");
+		setTitle("Mundo Pau-Brasil");
 		mainContainer = new JPanel();
 		mainContainer.setBorder(new EmptyBorder(5, 5, 5, 5));
 		mainContainer.setLayout(new BorderLayout(0, 0));

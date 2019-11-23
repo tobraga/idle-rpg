@@ -22,10 +22,10 @@ public abstract class Creador {
 
 	/* cria personagem de acordo com a classe escolhida */
     public static Heroi createHero(String classe, String name) throws NullPointerException {
-    	if ( classe.equals("e") || classe.equals("a") || classe.equals("m")) {
-    		if (classe.equals("s")) return (new Espadachim(name));
+    	if ( classe.equals("g") || classe.equals("a") || classe.equals("x")) {
+    		if (classe.equals("g")) return (new Guerreiro(name));
     		if (classe.equals("a")) return (new Arqueiro(name));
-    		if (classe.equals("m")) return (new Mago(name));
+    		if (classe.equals("x")) return (new Xama(name));
 		}
     	throw new NullPointerException();
     }

@@ -1,8 +1,8 @@
 package personagem;
 
-public class Mago extends Heroi {
+public class Xama extends Heroi {
 	
-    public Mago(String name) {
+    public Xama(String name) {
         super(name);
         this.calculatePower();
         this.calculateAtack();
@@ -13,7 +13,7 @@ public class Mago extends Heroi {
     // methods from Job
     
     @Override
-    public String getJOB() { return "Mago"; }
+    public String getJOB() { return "Xamã"; }
     
     @Override
     public void calculatePower() {
