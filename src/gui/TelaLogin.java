@@ -58,7 +58,12 @@ public class TelaLogin extends JFrame {
 		fieldClasse = new JTextField(2);
 		fields.add(fieldClasse);
 		contentPane.add(fields);
-		
+		lblClasse = new JLabel("g = Guerreiro");
+		fields.add(lblClasse);
+                lblClasse = new JLabel("a = Arqueiro");
+		fields.add(lblClasse);
+                lblClasse = new JLabel("x = Xamã");
+		fields.add(lblClasse);
 		/* construct the 3rd line of grid panels */
 		JPanel panelSubmit = new JPanel();
 		btnCreate = new JButton("CRIAR");
