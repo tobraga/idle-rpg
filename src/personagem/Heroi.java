@@ -70,4 +70,7 @@ public class Heroi extends Character implements Job {
     	Console.levelUp(this);
 	}
 
+    public int getGold() {
+        return gold;
+    }
 }

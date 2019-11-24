@@ -15,6 +15,8 @@ public abstract class Character {
     protected int atack;
     protected int defense;
     protected int power;
+    protected int gold;
+    
 
     
     public Character(String name){
@@ -97,6 +99,9 @@ public abstract class Character {
         recalculateHP();
         Console.updateCharacterInfo();
     	Console.levelUp(this);
+    }
+    public void increaseGold(int gold) {
+        this.gold += gold;
     }
     
     // battle methods

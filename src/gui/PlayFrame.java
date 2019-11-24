@@ -136,7 +136,8 @@ public class PlayFrame extends JFrame {
 		textArea[0].append("Classe:\t"+ idle.HERO.getJOB() + "\n");
 		textArea[0].append("Level:\t"+ idle.HERO.getLevel() + "\n");
 		textArea[0].append("XP:\t"+ idle.HERO.getXp() + "\n");
-		
+		textArea[0].append("Dinheiro:\t"+idle.HERO.getGold()+"\n");
+                
 		textArea[1].setText("Atributos\n\n");
 		String[] attrName = idle.HERO.getAttrNames();
 		int[] attr = idle.HERO.getAttributes(); 

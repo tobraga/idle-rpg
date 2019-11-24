@@ -67,6 +67,6 @@ public abstract class Console {
 	public static void askToContinue() {
 		System.out.println("Perguntando sobre reviver");
 		PlayFrame.idle.launchAsk();
-	}
+        }
 	
 }

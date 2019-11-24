@@ -46,14 +46,16 @@ public class Explorar extends java.lang.Thread {
 				if (battle.winner() == HERO) {
 					int n = ENEMY.getLevel(); // calcula experiencia
 					int xp = 100*n + (int)1.5*n*n + 630 * (int)(Math.pow(n, 4));
+                                        int gold = 20+n;
 					/* Encontrado em:
 					 * https://www.wakfu.com/pt/forum/16-discussoes-gerais-interesse-geral/7098-
 					 * como-feito-o-calculo-experiencia-necessaria-passar-nivel */
 
 					Console.printEndOfBattle(HERO);
 					Console.printIncreaseXP(xp);
+                                        utilidades.Console.printGold(gold);
 					HERO.increaseExperience(xp); // ganha/incrementa XP
-					
+					HERO.increaseGold(gold); //ganha/incrementa gold
 					items = Creador.generateEquipment(map.getLevel(), HERO.getJOB());
 					
 					Console.print("Item: " + items.getName()
