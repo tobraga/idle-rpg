@@ -43,6 +43,11 @@ public abstract class Console {
 		System.out.printf("Ganhou +%dXP\n", xp);
 	}
 	
+    
+        public static void printGold(int gold) {
+                System.out.printf("Ganhou +%dGOLD\n", gold);
+        }
+        
 	public static void levelUp(Character c) {
 		System.out.printf("%s LEVEL UP! New Level -> %d\n", c.getName(), c.getLevel());
 	}
