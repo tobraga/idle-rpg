@@ -1,6 +1,7 @@
 package utilidades;
 
 import personagem.Character;
+// metodos comuns de todas as habilidades do personagem
 
 public abstract class Habilidade {
 

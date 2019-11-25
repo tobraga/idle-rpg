@@ -7,6 +7,7 @@ import item.Item;
 import mapa.Mapa;
 /*/*
  * Módulo criado para impressão de logs, instruções e informações no terminal
+   Na aba Jogo principalmente
  * */
 
 public abstract class Console {
@@ -36,7 +37,7 @@ public abstract class Console {
 	}
 	
 	public static void printGameOver() {
-		System.out.println("GAME OVER! SE FODEU!!!");
+		System.out.println("GAME OVER!");
 	}
 	
 	public static void printIncreaseXP(int xp) {

@@ -3,7 +3,9 @@ package utilidades;
 import out.Console;
 import personagem.Character;
 import personagem.Heroi;
-
+/*
+implementa os métodos de Batalha
+*/
 public class Batalha1v1 implements Batalha {
 
 	private final Character FIGHTER_1;
@@ -15,7 +17,9 @@ public class Batalha1v1 implements Batalha {
 	}
 	
 	
-	
+	/*
+        Batalha dos persoangens
+        */
 	@Override
 	public void start() {
 		int damage;

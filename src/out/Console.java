@@ -41,7 +41,7 @@ public abstract class Console {
 	
 	
 	public static void printGameOver() {
-		print("GAME OVER! DEVEU!");
+		print("GAME OVER!");
 	}
 	
 	

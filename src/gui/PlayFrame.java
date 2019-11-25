@@ -103,7 +103,7 @@ public class PlayFrame extends JFrame {
 		
 	}
 
-	/* Character tab */
+	/* Character tab*/ 
 	static void initCharacterTab() {
 		// dividido em 3 partes verticalmente
 		for (int i=0; i<3; i++) {
@@ -119,6 +119,7 @@ public class PlayFrame extends JFrame {
 		auxPanel.add(textArea[0]);
 		auxPanel.add(textArea[1]);
 		auxPanel.add(textArea[2]);
+                
 	}
 	
 	
@@ -149,5 +150,6 @@ public class PlayFrame extends JFrame {
 		textArea[1].append("\nPower:\t"+ idle.HERO.getPower());
 		
 		textArea[2].setText("Equipamento\n\n");
+                
 	}
 }

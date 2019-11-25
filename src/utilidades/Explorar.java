@@ -33,7 +33,7 @@ public class Explorar extends java.lang.Thread {
 			map = Creador.creatorMap(HERO.getLevel()); // Inicializa a fase conforme o nivel do personagem
 			//Console.printMap(map); // Printa a fase em questao e seu nivel
 			
-			Console.print("Fase: " + map.getFase() + " - Nivel: " + map.getLevel() + "  Explorando...");
+			Console.print("Fase: " + map.getFase() + " - Nivel: " + map.getLevel() + "  Aguarde....");
 			
 			if (++i % 5 == 0) {
 				
